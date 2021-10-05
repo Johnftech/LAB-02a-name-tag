@@ -1,4 +1,43 @@
+
 body {
-    background-color: lightgray
+    background-color: lightgray;
+}
+/* border for name tag*/
+.hello {
+    border-radius: 20px 0px;
+    
 }
 
+.hello-bottom {
+    padding: 15px;
+    border-radius: 0px 20px;
+}
+
+.bkg-color {  
+    background-color: red; 
+}
+
+.white-text, h1, h2, p {
+    color: white;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.name-tag {
+    background-color: white;
+    padding: 30px;
+    border: 20px;
+}
+
+/* styling of text */
+.hello h1 {
+    font-style:oblique;
+    font-size: 50px;
+}
+
+.name-tag p {
+    color: black;
+    font-style: italic;
+    font-size: 30px;
+}
