@@ -1,20 +1,27 @@
 
 body {
     background-color: lightgray;
+    display: block;
 }
 /* border for name tag*/
-.hello {
-    border-radius: 20px 0px;
-    
-}
 
-.hello-bottom {
-    padding: 15px;
-    border-radius: 0px 20px;
+.container {
+    width: 400px;
 }
 
 .bkg-color {  
     background-color: red; 
+}
+
+.hello {
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+}
+
+div.hello-bottom {
+    width: 100%;
+    padding-bottom: 50px;
+    border-radius: 0 0 20px 20px;
 }
 
 .white-text, h1, h2, p {
@@ -27,7 +34,6 @@ body {
 .name-tag {
     background-color: white;
     padding: 30px;
-    border: 20px;
 }
 
 /* styling of text */
