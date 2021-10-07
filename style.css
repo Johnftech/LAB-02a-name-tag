@@ -9,6 +9,10 @@ body {
     width: 400px;
 }
 
+div.container {
+    background-color: grey;
+}
+
 .bkg-color {  
     background-color: red; 
 }

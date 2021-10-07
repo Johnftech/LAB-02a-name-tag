@@ -8,7 +8,23 @@
     <title>Name Tag</title>
 </head>
 <body>
-    <div class="container">
+    <section>
+        <input id="name-input">
+        <button id="update-button">Update</button>
+        <br>
+        <label for="color-change">Choose a Color</label>
+        <select name="color-select" id="color-change">
+            <option value="pink">Pink</option>
+            <option value="lightgreen">Light Green</option>
+            <option value="lightblue">Light Blue</option>
+        </select>
+        <button id="color-change-button">Change Color</button>
+
+        
+
+    </section>
+    
+    <div class="container name-tag">
         <header>
             <div class="hello bkg-color white-text ">
                 <div>
@@ -16,14 +32,14 @@
                 </div>
         
                 <div>
-                    <h2>my name is</h2>
+                    <h2 >my name is</h2>
                 </div>
             </div>
         </header>
     
         <main class="bkg-color">
-            <div class="name-tag">
-                <p>Johnathon Flores</p>
+            <div class="name-tag" >
+                <p id="name-display">Johnathon Flores</p>
             </div>
         </main>
         <footer>
@@ -31,6 +47,6 @@
         </footer>
 
     </div>
-    
+    <script src="app.js" type="module"></script>
 </body>
 </html>
