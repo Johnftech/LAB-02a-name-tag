@@ -18,6 +18,9 @@ updateButton.addEventListener('click', () => {
 );
 
 // listen and update color change
+const colorDiv = document.getElementById('div-color');
+console.log(colorDiv, chooseColor);
+
 let newColor = "";
 chooseColor.addEventListener('change', () => {
     console.log('A color was selected');
@@ -29,12 +32,27 @@ changeColorButton.addEventListener('click', () => {
     // call the choosecolor event listener
     // nameTagColor.className = color that was selected ;
     console.log('This is nameTagColor:', nameTagColor);
-    nameTagColor.style.backgroundColor = newColor;
+    /*nameTagColor.style.backgroundColor = newColor;
   for (let i = 0; i < nameTagColor.length; i++) {
         const item = nameTagColor[i];
         console.log(`This is the item: ${item}`);
         item.style.backgroundColor = newColor;
     }
+    */
+   switch (chooseColor.value) {
+       case 'pink':
+           nameTagColor.style.background = 'pink';
+           break;
+        case 'lightgreen':
+            nameTagColor.style.background = 'lightgreen';
+            break;
+        case 'lightblue':
+            nameTagColor.style.background = 'lightblue';
+            break;
+        default:
+            nameTagColor.style.background = 'red';  
+   }
+   
 });
 
 
