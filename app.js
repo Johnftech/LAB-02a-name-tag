@@ -41,16 +41,16 @@ changeColorButton.addEventListener('click', () => {
     */
    switch (chooseColor.value) {
        case 'pink':
-           nameTagColor.style.background = 'pink';
+           colorDiv.style.backgroundColor = 'pink';
            break;
         case 'lightgreen':
-            nameTagColor.style.background = 'lightgreen';
+            colorDiv.style.backgroundColor = 'lightgreen';
             break;
         case 'lightblue':
-            nameTagColor.style.background = 'lightblue';
+            colorDiv.style.backgroundColor = 'lightblue';
             break;
         default:
-            nameTagColor.style.background = 'red';  
+            colorDiv.style.backgroundColor = 'red';  
    }
    
 });
